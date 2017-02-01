@@ -1,4 +1,4 @@
-# lsdjwavmorph
+# LSDj WAV morph
 A Python script for LSDj Wavetable morphing via interpolation
 
 ![bgb.gif](bgb.gif)
