@@ -68,9 +68,8 @@ def printerpolate(wtlist):
     for r in wtlist:
         wtstr = ""
         for s in r:
-            s = str(hex(int(round(s))))
-            s = s.replace('0x','')
-            wtstr = wtstr + s.upper()
+            s = "{0:X}".format(int(round(s)))
+            wtstr = wtstr + s
         print(wtstr)
     if (len(wtlist) < 16):
         strzeros = ['8'] * 32
