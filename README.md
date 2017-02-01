@@ -1,7 +1,7 @@
 # lsdjwavmorph
-LSDj Wavetable interpolation/morphing
+A Python script for LSDj Wavetable morphing via interpolation
 
-A simple Python script to morph one wavetable into another by interpolation
+![bgb.gif](bgb.gif)
 
 Usage: python wavmorph.py [--normalize]
 
