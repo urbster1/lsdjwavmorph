@@ -78,9 +78,9 @@ def printerpolate(wtlist):
             print(''.join(strzeros))
 wt1list = []
 wt2list = []
+wt3list = []
 convertwt(wt1,wt1list)
 convertwt(wt2,wt2list)
-wt3list = []
 interpolate(wt1list,wt2list,wt3list,num)
 if args.normalize:
     print('Normalizing waveforms...')
