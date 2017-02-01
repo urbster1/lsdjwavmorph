@@ -5,7 +5,7 @@ A Python script for LSDj Wavetable morphing via interpolation
 
 Usage: python wavmorph.py [--normalize]
 
-The script will prompt you for 2 strings of 32 hexadecimal numbers representing the wavetables you want to morph between, e.g. from 00000000000000000000000000000000 to FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+The script will prompt you for 2 strings of 32 hexadecimal numbers representing the wavetables you want to morph between, e.g. as shown from 7ACFEB630148999888BDC96433467767 to CCCCCCCCCCCCCCCC3333333333333333
 
 It will then prompt for how many wave frames to interpolate across, inclusive of the first and last waveforms-- minimum is 3, maximum is 16 (default).
 
