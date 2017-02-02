@@ -12,3 +12,5 @@ It will then prompt for how many wave frames to interpolate across, inclusive of
 If the --normalize flag is present, the script will normalize each waveform.
 
 The output is printed in the console and also to a binary file called 'wavmorph.snt' which can be patched using the patcher included in [LSDj Wave Cruncher](https://github.com/iLambda/lsdj-wave-cruncher). If the number of waves is fewer than 16, remaining waves are filled with flat values to fill up to 16 frames.
+
+TODO: add ability to phase and vshift waveforms
